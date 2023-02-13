@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Header, About, Banner , Clients, CTA, Display, Footer, Projects, Services } from '@/sections'
 
 
 export default function Home() {
@@ -11,9 +12,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>
-         hello
-        </div>
+        <Banner/>
+        <Header/>
+        <Clients/>
+        <Services/>
+        <Display/>
+        <Projects/>
+        <About/>
+        <CTA/>
+        <Footer/>
       </main>
     </>
   )
